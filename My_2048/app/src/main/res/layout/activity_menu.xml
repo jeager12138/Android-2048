@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF4DA">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="菜单"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="56sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/voice_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="6dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/menu_button1"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/card_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="返回游戏"
+        android:textSize="30sp"
+        android:textColor="#EDE0C8"/>
+    <Button
+        android:id="@+id/menu_button2"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/card_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:text="标准模式 4×4"/>
+    <Button
+        android:id="@+id/menu_button3"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/blue_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:text="逆向模式 4×4"/>
+    <Button
+        android:id="@+id/menu_button4"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/card_box"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:text="标准模式 5×5"/>
+    <Button
+        android:id="@+id/menu_button5"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/blue_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:text="逆向模式 5×5"/>
+
+
+</LinearLayout>
